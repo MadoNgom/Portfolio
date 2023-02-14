@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- FONT AWESOME CDN LINK -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	</head>
+	<body>
+		<header class="header">
+			<button class="nav-toggle" aria-label="nav toggle">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+					<div class="container row">
+					<div class="nav__logo">
+						<h3>Malado</h3>
+					</div>
+					<ul class="nav__list">
+						<li class="nav__link"
+							><a href="#home" class="nav__item">home</a></li
+						>
+							<li class="nav__link"
+							><a href="#home" class="nav__item">About</a></li
+						>
+						<li class="nav__link"
+							><a href="#skills" class="nav__item">skills</a></li
+						>
+						<li class="nav__link"
+							><a href="#projects" class="nav__item">project</a></li
+						>
+						<li class="nav__link"
+							><a href="#contact" class="nav__item">contact</a></li
+						>
+					</ul>
+					
+				</nav>
+			</div>
+		</header>
+		<!-- Main -->
+		<main>
+			<!-- INTRO SECTION -->
+			<section class="showCase" id="home">
+				<div class="container">
+				<h1 class="showCase__title">hello,<br> i'm <span class="letter">M</span>alado </h1>
+				<p class="showCase__subtitle">front end developer</p>
+				<p class="showCase__text">
+					I am a web developer with a passion for creating beautiful <br> and
+					functional websites
+				</p>
+				<a href="#about" class="showCase__btn">More About me</a>
+				</div>
+			</section>
+			<section class="about" id="about">
+				<div class="container">
+				<div class="about__content">
+				<h2 class="about__title">About <span class="letter">M</span>e</h2>
+				<p class="about__description">
+					i am Malado junior front end developer with a passion for technology. I used my own time to teach my self several programming languages such as HTML ,CSS , JAVASCRIPT along with React. <br/> <br> I'm a quick learner , a highly self-motivated person  and enjoy also the processe that makes me build a project from 0 to something that can grab the user's attention.
+					I am eager to bring my skills and passion for technology to professional setting and contribute to a team of developers
+				</p>
+			 </div>
+			</div>
+			</section>
+			<!-- END OF THE INTRO SECTION--  -->
+			<section class="skills" id="skills">
+				<div class="container">
+				<h2 class="skills__title">My skills</h2>
+				<div class="underline"></div>
+					<div class="row">
+						<article class="col">
+							<span class="col__icon"><i class="fa-solid fa-globe"></i></span>
+							 <h3 class="col__title">web developement</h3>
+							<p class="col__text">
+										I have experience building responsive and accessible user interfaces using semantic HTML ,CSS and javascript.
+										I am also highly skilled in building complex React applications and working with RestFul Api</p>
+						</article>
+						<article class="col">
+								<span class="col__icon">
+									<span class="col__icon"><i class="fa-brands fa-github"></i></span>
+								</span>
+							 <h3 class="col__title">git version control</h3>
+							<p class="col__text">
+								I am an experienced software developer with expertise in Git version control. I am proficient in using Git for source code management, including creating and managing branches,
+							</p>
+						</article>
+							<article class="col">
+								<span class="col__icon"><i class="fa-solid fa-code"></i></span>
+							 <h3 class="col__title">Responsive App</h3>
+							<p class="col__text">
+							I am skilled in using CSS and media queries to create responsive and mobile-first layouts that work across a wide range of devices and screen sizes.
+							 Additionally, I am also familiar with CSS frameworks such as Bootstrap .
+							</p>
+						</article>
+					</div>
+			</div>
+			</section>
+			<!-- My Project section -->
+			<section class="project" id="projects">
+				<div class="container">
+				<h2 class="project__title">My projects</h2>
+				<div class="projects">
+					<!-- single project -->
+					<article class="project__card">
+						<img src="../images/watch.jpg" alt="" class="project__img" />
+						<h4 class="project__sub">watch site</h4>
+						<p class="project__text">This website is a landing page build using Boostrap Html CSS </p>
+						 <a href="https://madongom.github.io/landing/" target="_blank">view live</a> 
+						 <a href="https://github.com/MadoNgom/landing" target="_blank">source code</a> 
+					</article>
+					<!-- single project -->
+					<article class="project__card">
+						<img src="../images/login-img.jpg" alt="" class="project__img" />
+					<h4 class="project__sub">Login form with client side validation</h4>
+						<p class="project__text">This website is a landing page build using Boostrap Html CSS </p>
+						 <a href="https://madongom.github.io/le-Test/" target="_blank">view live</a> 
+						 <a href="https://github.com/MadoNgom/le-Test" target="_blank">source code</a> 
+					</article>
+					<!-- single project -->
+					<article class="project__card">
+						<img src="../images/Edu-img.jpg" alt="" class="project__img" />
+						<h4 class="project__sub">Edu meeting site from Templatemo</h4>
+						<p class="project__text">This is an educationel site build using html css and javascript it contains video as background  </p>
+						 <a href="https://madongom.github.io/educative-site/" target="_blank">view live</a> 
+						 <a href="https://github.com/MadoNgom/educative-site" target="_blank">source code</a> 
+					</article>
+					<!-- single project -->
+					<article class="project__card">
+						<img src="./images/youComment.jpg" alt="outube comment section clone" class="project__img" />
+						<h4 class="project__sub">Youtube comment section clone</h4>
+						<p class="project__text">This is a youtube comment section with React js where the users can share their idea  </p>
+						 <a href="https://jocular-fenglisu-e7d1b3.netlify.app/" target="_blank">view live</a> 
+						 <a href="https://github.com/MadoNgom/Youcomment" target="_blank">source code</a> 
+					</article>
+					<!-- single project -->
+					<article class="project__card">
+						<img src="./images/watch.jpg" alt="" class="project__img" />
+						<h4 class="project__sub">Apple whatch clone webite</h4>
+						<p class="project__text"> This one is build using react js and some functionality to it to the user to navigate throught the website </p>
+						 <a href="https://moonlit-elf-c8dad2.netlify.app/" target="_blank">view live</a> 
+						 <a href="https://github.com/MadoNgom/Apple-watch" target="_blank">source code</a> 
+					</article>
+
+			</section>
+		</main>
+			 <footer id="contact" class="contact">
+				 <div class="container">
+					<h2 class="contact__title">Contact me</h2>
+					<form action="" class="contact__form">
+						<input type="email" name="email" id="email" class="contact__input" placeholder="email">
+						<input type="text" name="message" id="message" class="contact__input"
+						placeholder="add your message">
+					</form>
+					<button type="submit" class="contact__btn">connect with me</button>
+				</div>
+			</footer>
+		<script src="./main.js"></script>
+	</body>
+</html>
