@@ -192,17 +192,16 @@ section {
 }
 /* ABOUT ME SECTION */
 .about {
-	padding: 3rem;
+	padding: 3rem 0.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .about .about__content {
-	width: min(60%, 750px);
 	text-align: center;
-	color: rgb(112, 109, 109);
-	font-size: 1.2rem;
-	margin-inline: auto;
+	color: rgb(166, 162, 162);
+
+	font-size: 0.96rem;
 }
 .about .about__content .about__title {
 	color: var(---whiteColor);
@@ -210,8 +209,11 @@ section {
 	text-transform: capitalize;
 }
 .about .about__content .about__description {
-	font-size: 1rem;
+	max-width: 500px;
+	margin-inline: auto;
+	margin-top: 30px;
 }
+
 /* SKILLS STYLING */
 .skills {
 	padding: 2rem 1rem;
@@ -325,6 +327,11 @@ section {
 	font-size: 1rem;
 	border-radius: 5px;
 }
+.small-text {
+	margin-top: 15px;
+	font-size: 13px;
+	color: #d62828;
+}
 
 @media (min-width: 768px) {
 	.projects {
@@ -375,5 +382,8 @@ section {
 	}
 	.projects {
 		grid-template-columns: repeat(3, 1fr);
+	}
+	.about .about__content {
+		font-size: 1rem;
 	}
 }
